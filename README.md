@@ -6,10 +6,10 @@ A hybrid, production-ready analytics dashboard built with **Streamlit** and powe
 
 ## Key Features
 
-* **🤖 AI Supply Chain Copilot:** Translate natural language business questions directly into optimized PostgreSQL queries in real-time.
-* **📈 Hybrid Architecture:** Combines structured executive reporting tabs with unstructured, flexible AI intelligence.
-* **🛠️ Direct Filter Integration:** Full structural alignment between frontend sidebar filters (Region, Warehouse, Category, Date) and complex SQL aggregates without row duplication.
-* **🔎 Raw Database Inspector:** Admin-level visibility layer executing safe, row-level queries directly to the backend to maintain data transparency and auditability.
+* **AI Supply Chain Copilot:** Translate natural language business questions directly into optimized PostgreSQL queries in real-time.
+* **Hybrid Architecture:** Combines structured executive reporting tabs with unstructured, flexible AI intelligence.
+* **Direct Filter Integration:** Full structural alignment between frontend sidebar filters (Region, Warehouse, Category, Date) and complex SQL aggregates without row duplication.
+* **Raw Database Inspector:** Admin-level visibility layer executing safe, row-level queries directly to the backend to maintain data transparency and auditability.
 
 ---
 
