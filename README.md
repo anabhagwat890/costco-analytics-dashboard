@@ -1,6 +1,6 @@
 # Costco-Inspired Sales & Inventory Insights System
 
-A hybrid, production-ready analytics dashboard built with **Streamlit** and powered by a live **PostgreSQL** database. The system features structural rule-based business analytics alongside an unstructured **AI Supply Chain Copilot** powered by **Google Gemini 1.5/2.5 Flash**.
+A hybrid, production-ready analytics dashboard built with **Streamlit** and powered by a live **PostgreSQL** database. The system features structural rule-based business analytics alongside an unstructured **AI Supply Chain Copilot** powered by **Google Gemini 2.5 Flash**.
 
 ---
 
@@ -36,7 +36,9 @@ A hybrid, production-ready analytics dashboard built with **Streamlit** and powe
 
 ### 1. Clone the Repository
 #```bash
+
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+
 cd YOUR_REPO_NAME
 
 
