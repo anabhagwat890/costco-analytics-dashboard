@@ -353,7 +353,7 @@ def display_table(df: pd.DataFrame):
 # Main app
 # ------------------------------------------------------------
 
-st.title("🏬 Costco-Inspired Sales & Inventory Insights System")
+st.title("Costco-Inspired Sales & Inventory Insights System")
 st.caption("Pre-AI Streamlit dashboard: SQL-driven metrics, tables, and visualizations.")
 
 
@@ -428,7 +428,7 @@ with st.sidebar:
 params = make_params(region, warehouse, category, start_date, end_date)
 
 tabs = st.tabs([
-    "🤖 AI Copilot",
+    "AI Copilot",
     "1. Category Winners",
     "2. Warehouse Battle",
     "3. Empty Shelf",
@@ -438,7 +438,7 @@ tabs = st.tabs([
 
 
 with tabs[0]:
-    st.subheader("🤖 AI Supply Chain Copilot")
+    st.subheader("AI Supply Chain Copilot")
     st.markdown(
         """
         <div class="ai-callout">
@@ -622,7 +622,7 @@ with tabs[5]:
             st.success("No immediate promotion candidates found under the current rule-based logic.")
 
 
-with st.expander("🛠️ Admin: Raw Database Inspector"):
+with st.expander("Admin: Raw Database Inspector"):
     table_to_view = st.selectbox("Select a table to inspect raw data:", 
     ["warehouse", "product", "category", "inventory", "salestransaction", "salestransactionitem", "supplier", "productsupplier"])
     if table_to_view:
